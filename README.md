@@ -1,17 +1,39 @@
-# Hey, I'm RhaEvix 👋
+Student Performance Analyzer 📊
 
-### Python Developer • Data Analysis • Web Development
+A Python-based data analysis project that explores student performance, compares academic results, and visualizes different patterns in the data.
 
-I build projects with Python and explore data, web development, and new technologies.
-
-## 🛠️ Tech Stack
+🛠️ Built With
 
 - Python
-- Data Analysis
-- React
-- TypeScript
-- Git & GitHub
+- Pandas
+- Matplotlib
 
-## 🚀 Projects
+📌 Features
 
-More projects coming soon...
+- Calculate each student's average score
+- Compare average scores between subjects
+- Find the highest-performing student
+- Visualize subject averages with a bar chart
+
+📂 Project Structure
+
+student-performance-analyzer/
+├── data/
+│   └── students.csv
+├── analysis.py
+├── requirements.txt
+└── README.md
+
+🚀 Getting Started
+
+Install the required libraries:
+
+pip install -r requirements.txt
+
+Run the analysis:
+
+python analysis.py
+
+📊 Data
+
+The project uses a small sample dataset containing student names and scores in Math, Physics, English, and Computer Science.
